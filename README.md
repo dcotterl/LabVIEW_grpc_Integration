@@ -10,3 +10,5 @@ both environment and system variables
 download the grpc tool https://github.com/grpc/grpc
 
 Protocol buffer documentation can be foundç https://developers.google.com/protocol-buffers/docs/proto3
+
+instructions on how to set it up can be found the the doc folder
