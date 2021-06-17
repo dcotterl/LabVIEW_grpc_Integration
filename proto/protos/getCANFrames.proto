@@ -1,0 +1,21 @@
+
+
+syntax = "proto3";
+
+
+
+package getCANDatafromrgrpcServer;
+
+
+service clientRequester {
+  rpc getIDFormServer (inputSettings) returns (getFrameResponse) {}
+}
+
+message inputSettings {
+  string inputNumber = 1;
+}
+
+
+message getFrameResponse {
+  string stringID = 1;
+}

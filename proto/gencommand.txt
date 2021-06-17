@@ -1,0 +1,4 @@
+cd C:\Users\NI_Testing\Documents\LabVIEW Projects\gprcTestServer\proto\gen
+python -m grpc_tools.protoc -I../protos --python_out=. --grpc_python_out=. ../protos/helloworld.proto
+
+Replace the name of the proto depending on what you need
