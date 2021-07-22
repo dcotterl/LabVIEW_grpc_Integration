@@ -13,10 +13,16 @@
 		<Item Name="helloWServer" Type="Folder">
 			<Item Name="helloWServer.lvlib" Type="Library" URL="../Servers/helloWServer/helloWServer.lvlib"/>
 		</Item>
+		<Item Name="SimpleTests" Type="Folder">
+			<Item Name="Client.vi" Type="VI" URL="../SimpleTests/Client.vi"/>
+			<Item Name="Server.vi" Type="VI" URL="../SimpleTests/Server.vi"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="DatastreamGrpc.lvlib" Type="Library" URL="/&lt;vilib&gt;/DatastreamGrpc/DatastreamGrpc.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
+				<Item Name="niDataStreamGrpc.dll" Type="Document" URL="/&lt;vilib&gt;/DatastreamGrpc/External/niDataStreamGrpc.dll"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
