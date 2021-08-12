@@ -13,6 +13,9 @@
 		<Item Name="helloWServer" Type="Folder">
 			<Item Name="helloWServer.lvlib" Type="Library" URL="../Servers/helloWServer/helloWServer.lvlib"/>
 		</Item>
+		<Item Name="rfwefewrwer" Type="Folder">
+			<Item Name="rfwefewrwer.lvlib" Type="Library" URL="../Servers/rfwefewrwer/rfwefewrwer.lvlib"/>
+		</Item>
 		<Item Name="SimpleTests" Type="Folder">
 			<Item Name="Client.vi" Type="VI" URL="../SimpleTests/Client.vi"/>
 			<Item Name="Server.vi" Type="VI" URL="../SimpleTests/Server.vi"/>
